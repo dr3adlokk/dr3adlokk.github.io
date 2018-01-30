@@ -2,86 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Academic Information</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    
-    <Link rel="stylesheet" href="./assets/css/student bio.css" type="text/css">
-        <a href="aboutme.html">Portfolio still in beta:</a>
-
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Student Bio</h1>
-    </header>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Menu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-           
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Navigation
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html">Student Bio</a>
-                <a class="dropdown-item" href="aboutme.html">About Me</a>
-                <a class="dropdown-item" href="portfolio.html">Professional Portfolio</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="contact.html">Contact by Email</a>
-              </div>
-         
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    
+    <header id="masthead">
     <div class="container">
-        <section id="main-bio">
-            <h2>John Chambers</h2>
-            
-            <img src="https://raw.githubusercontent.com/dr3adlokk/Basic-Portfolio/master/assets/images/4linked.jpg" height="200px" width="200px" id="bio-image">
-           
-            <p>My name is John Chambers. I am currently a student at the UCI Coding Bootcamp. As such, It is a pretty safe assumption that I am relatively tech savvy and love the Internet. In addition, I am also a lover of music and animals. I am somewhat of an Ableton Live nerd and I also used to have a blue and gold macaw a.k.a. a parrot. When I am not staring at a computer screen I tend to spend a lot of time with my family and friends. Fun-fact; I have an identical twin brother. </p>
+        <a href="index.html" id="logo">Your Name</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
 
-
-
-        </section>
-        <section id="contact-info">
-           
-            <h2>Contact info</h2>
-            <ul>
-                <li><Strong>Email:</Strong> <a href="#">dr3adlokk@gmail.com</a>
-                </li>    
-                <li><Strong>Github:</Strong> <a href="#">https://github.com/dr3adlokk</a>
-                </li>    
-                <li><Strong>Linkedin:</Strong> <a href="#">https://www.linkedin.com/in/john-chambers-58a457151/</a>
-                </li>    
-            
-            </ul>
-
-        </section>
-
-
-
-
+            </nav>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
-</body>
+    </header>
 
+    <div id="main-container" class="container">
+        <section class="main-container">
+            <h1>About Me</h1>
+            <img src="assets/images/4linked.jpg" class="auth-image" alt="me picture">
+
+            <p>My name is John Chambers I am a technician with experience in various areas such as quality media mastering of audio or images. Additionally, I am experienced in setting up for live music/recording events. Aside from being an expert with the arts, I am also a student of Internet Technology currently expanding my knowledge with various technologies and coding languages such as HTML, CSS, Javascript and advanced techniques to increase web functionality for mobile users.</p>
+        </section>
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+                <img src="assets/images/git.png" class="social" alt="Github">
+                <img src="assets/images/linked.png" class="social" alt="LinkedIn">
+                <img src="assets/images/stack overflow.png" class="social" alt="StackOverflow">
+            </div>
+
+
+        </section>
+    
+    
+    
+    
+    </div>
+    
+</body>
 </html>
