@@ -6,4 +6,16 @@
 #nav-link {
     background: black;
     color: #efefef
+
+}
+
+
+.container-fluid {
+    float: left;
+}
+
+
+
+connect {
+    float: left;
 }
